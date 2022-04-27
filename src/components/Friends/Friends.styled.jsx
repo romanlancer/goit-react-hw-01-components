@@ -1,5 +1,14 @@
 import styled from '@emotion/styled';
 
+export const GithubLink = styled.a`
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+  text-decota &:last-child {
+    margin-bottom: 0;
+  }
+`;
+
 export const Wrapper = styled.ul`
   display: flex;
   flex-direction: column;
@@ -11,11 +20,17 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   padding: 8px;
-  margin-bottom: 8px;
+
   border: 1px solid #557b83;
   border-radius: 10px;
-  &:last-child {
-    margin-bottom: 0;
+  cursor: pointer;
+  transform: scale(1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    background-color: #f2f6f9;
   }
 `;
 
@@ -28,7 +43,9 @@ export const OnlineLabel = styled.div`
 `;
 
 export const Avatar = styled.img`
-  width: 40px;
+  object-fit: cover;
+  width: 30px;
+  border-radius: 50%;
   margin-left: 30px;
 `;
 

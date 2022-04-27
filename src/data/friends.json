@@ -1,32 +1,37 @@
 [
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-    "name": "Mango",
+    "avatar": "https://avatars.githubusercontent.com/u/88936471?v=4",
+    "name": "Roman Hyrych",
     "isOnline": true,
-    "id": 1812
+    "id": 1812,
+    "githubLink": "https://github.com/romanlancer/"
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
-    "name": "Kiwi",
+    "avatar": "https://avatars.githubusercontent.com/u/41318656?v=4",
+    "name": "Oleksandr Nikolaienko",
     "isOnline": false,
-    "id": 1137
+    "id": 1137,
+    "githubLink": "https://github.com/aleksander-nikolaenko"
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
-    "name": "Ajax",
+    "avatar": "https://avatars.githubusercontent.com/u/22094005?v=4",
+    "name": "Lubov Danchenko",
     "isOnline": true,
-    "id": 1213
+    "id": 1213,
+    "githubLink": "https://github.com/LDanchenko"
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
-    "name": "Jay",
+    "avatar": "https://avatars.githubusercontent.com/u/75755667?v=4",
+    "name": "Evgeniy Ignatenko",
     "isOnline": true,
-    "id": 1714
+    "id": 1714,
+    "githubLink": "https://github.com/eijjeka"
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
-    "name": "Poly",
+    "avatar": "https://avatars.githubusercontent.com/u/88508533?v=4",
+    "name": "Aleksandr Kashirin",
     "isOnline": false,
-    "id": 1284
+    "id": 1284,
+    "githubLink": "https://github.com/Saniokkk"
   }
 ]
