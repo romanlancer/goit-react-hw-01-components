@@ -4,7 +4,7 @@ export const GithubLink = styled.a`
   margin-bottom: 8px;
   text-decoration: none;
   color: black;
-  text-decota &:last-child {
+  &:last-child {
     margin-bottom: 0;
   }
 `;
@@ -14,13 +14,13 @@ export const Wrapper = styled.ul`
   flex-direction: column;
   width: 300px;
   padding: 0px;
+  margin: 0px;
 `;
 
 export const Item = styled.li`
   display: flex;
   align-items: center;
   padding: 8px;
-
   border: 1px solid #557b83;
   border-radius: 10px;
   cursor: pointer;

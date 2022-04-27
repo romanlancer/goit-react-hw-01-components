@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Container = styled.section`
+export const Container = styled.div`
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -8,9 +8,9 @@ export const Container = styled.section`
   flex-direction: column;
 `;
 
-export const Item = styled.div`
-  margin-bottom: 40px;
+export const Item = styled.section`
+  padding-bottom: 40px;
   &:last-child {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 `;
